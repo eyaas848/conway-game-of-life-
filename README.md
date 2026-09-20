@@ -3,7 +3,7 @@
 ![Two Gosper glider guns firing at each other, glider trails glowing and colliding into coral-like growths](demo.gif)
 
 A desktop Game of Life simulator with age-based coloring, live drawing, and a
-built-in preset library — including the Gosper Glider Gun shown above.
+built-in preset library including the Gosper Glider Gun shown above.
 
 > The GIF isn't a screen recording of the app. I'ts rendered by
 > [`generate_gif.py`](generate_gif.py), a small headless simulator with a
@@ -28,7 +28,7 @@ things push this one further:
 1. **The visualization is decoupled from the simulation.** The same
    generation logic (birth/survival rules, neighbor counting) backs both the
    interactive Tkinter app and the standalone renderer used to produce the
-   GIF above — so the "flashy" version isn't a one-off hack, it's built on
+   GIF above so the "flashy" version isn't a one-off hack, it's built on
    the same core.
 2. **The GIF renderer treats the simulation as an art piece**, not just a
    debug output: it tracks per-cell brightness with exponential decay

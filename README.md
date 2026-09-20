@@ -5,7 +5,7 @@
 A desktop Game of Life simulator with age-based coloring, live drawing, and a
 built-in preset library — including the Gosper Glider Gun shown above.
 
-> The GIF isn't a screen recording of the app — it's rendered by
+> The GIF isn't a screen recording of the app. I'ts rendered by
 > [`generate_gif.py`](generate_gif.py), a small headless simulator with a
 > phosphor-persistence trail effect and a bloom pass. Two mirrored glider guns
 > fire at each other; the streams eventually feed back into the guns
@@ -66,6 +66,6 @@ python3 generate_gif.py
 Conway's Game of Life is a zero-player cellular automaton: every cell's fate
 each generation is decided by exactly four rules based on its live
 neighbors. From those four rules alone come gliders, guns that fire them
-forever, and — as the demo above shows — genuinely unpredictable, organic-
+forever, and as the demo above shows, genuinely unpredictable, organic,
 looking growth from two very simple, deterministic machines pointed at each
 other.

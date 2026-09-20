@@ -1,4 +1,5 @@
-# Conway's Game of Life — Phosphor Edition
+# phosphor life 
+A Conway's Game of Life implementation
 
 ![Two Gosper glider guns firing at each other, glider trails glowing and colliding into coral-like growths](demo.gif)
 
